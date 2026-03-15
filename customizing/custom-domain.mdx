@@ -1,0 +1,55 @@
+---
+title: Setting Up a Custom Domain
+description: How to connect your own domain to your Prodfolio portfolio (Pro feature).
+sidebarTitle: Custom Domain (Pro)
+---
+
+# Setting Up a Custom Domain
+
+<Note>Custom domains are a Pro feature. [Upgrade to Pro →](/billing/plan-comparison)</Note>
+
+Connect your own domain (e.g., `portfolio.janedoe.com`) to your Prodfolio portfolio for a fully branded experience.
+
+{/* TODO: Add video embed */}
+
+## Prerequisites
+
+- A Pro plan subscription
+- A domain you own with access to DNS settings
+
+## Step-by-step setup
+
+### 1. Enter your domain
+
+1. Open the portfolio builder
+2. Go to the **Domain** section
+3. Enter your custom domain (e.g., `portfolio.janedoe.com`)
+4. Click **Verify**
+
+### 2. Configure DNS
+
+Add a **CNAME record** in your domain registrar's DNS settings:
+
+| Type | Name | Value |
+|------|------|-------|
+| CNAME | `portfolio` (or your subdomain) | Provided by Prodfolio |
+
+<Note>DNS changes can take up to 48 hours to propagate, though most complete within a few hours.</Note>
+
+### 3. Verify
+
+Return to Prodfolio and click **Verify** again. Once DNS has propagated, your domain status will change to **Active**.
+
+## Domain status
+
+- **Pending** — DNS not yet verified
+- **Active** — Domain is connected and working
+- **Error** — Something went wrong (check your DNS settings)
+
+## Troubleshooting
+
+- **Domain still showing "Pending"?** DNS propagation can take up to 48 hours. Try again later.
+- **Error status?** Double-check that your CNAME record matches exactly what Prodfolio provided.
+- **Using a root domain (no subdomain)?** Some registrars require an ALIAS or ANAME record instead of CNAME for root domains.
+
+[More troubleshooting →](/faq/custom-domain-troubleshooting)

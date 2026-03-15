@@ -1,0 +1,188 @@
+{
+  "$schema": "https://mintlify.com/docs.json",
+  "theme": "maple",
+  "name": "Prodfolio Help Center",
+  "description": "Learn how to build a standout product management portfolio with Prodfolio.",
+  "colors": {
+    "primary": "#7C3AED",
+    "light": "#A78BFA",
+    "dark": "#5B21B6"
+  },
+  "icons": {
+    "library": "lucide"
+  },
+  "logo": {
+    "light": "/logo-light.svg",
+    "dark": "/logo-dark.svg",
+    "href": "https://prodfolio.io"
+  },
+  "navbar": {
+    "links": [
+      {
+        "label": "Prodfolio",
+        "href": "https://prodfolio.io"
+      }
+    ],
+    "primary": {
+      "type": "button",
+      "label": "Go to App",
+      "href": "https://app.prodfolio.io"
+    }
+  },
+  "navigation": {
+    "tabs": [
+      {
+        "tab": "Help Center",
+        "groups": [
+          {
+            "group": "Getting Started",
+            "icon": "rocket",
+            "pages": [
+              "getting-started/what-is-prodfolio",
+              "getting-started/creating-your-account",
+              "getting-started/onboarding-walkthrough",
+              "getting-started/your-first-portfolio"
+            ]
+          },
+          {
+            "group": "Building Your Portfolio",
+            "icon": "hammer",
+            "pages": [
+              "building/portfolio-basics",
+              "building/about-section",
+              "building/work-experience",
+              "building/case-studies",
+              "building/resume-upload",
+              "building/references",
+              "building/beyond-work",
+              "building/skills-and-tools"
+            ]
+          },
+          {
+            "group": "Customizing Your Portfolio",
+            "icon": "palette",
+            "pages": [
+              "customizing/themes",
+              "customizing/custom-colors",
+              "customizing/about-video",
+              "customizing/custom-domain",
+              "customizing/remove-branding"
+            ]
+          },
+          {
+            "group": "Publishing & Sharing",
+            "icon": "share-2",
+            "pages": [
+              "publishing/publish-portfolio",
+              "publishing/sharing-your-link",
+              "publishing/public-portfolio",
+              "publishing/password-protection"
+            ]
+          },
+          {
+            "group": "Analytics",
+            "icon": "bar-chart-3",
+            "pages": [
+              "analytics/dashboard-overview",
+              "analytics/traffic-sources",
+              "analytics/case-study-rankings",
+              "analytics/free-vs-pro"
+            ]
+          },
+          {
+            "group": "AI Features",
+            "icon": "sparkles",
+            "pages": [
+              "ai/case-study-generation",
+              "ai/case-study-summaries",
+              "ai/resume-parsing"
+            ]
+          },
+          {
+            "group": "Access Management",
+            "icon": "lock",
+            "pages": [
+              "access/managing-requests",
+              "access/grant-durations",
+              "access/revoking-access",
+              "access/access-history"
+            ]
+          },
+          {
+            "group": "Account & Settings",
+            "icon": "settings",
+            "pages": [
+              "account/edit-profile",
+              "account/change-password",
+              "account/notification-preferences",
+              "account/founding-member-badge"
+            ]
+          },
+          {
+            "group": "Billing & Plans",
+            "icon": "credit-card",
+            "pages": [
+              "billing/plan-comparison",
+              "billing/founding-member-offer",
+              "billing/free-trial",
+              "billing/manage-subscription",
+              "billing/cancellation",
+              "billing/trial-expiration"
+            ]
+          }
+        ]
+      },
+      {
+        "tab": "FAQs",
+        "groups": [
+          {
+            "group": "Frequently Asked Questions",
+            "icon": "circle-help",
+            "pages": [
+              "faq/multiple-portfolios",
+              "faq/resume-formats",
+              "faq/no-pm-background",
+              "faq/data-privacy",
+              "faq/delete-account",
+              "faq/custom-domain-troubleshooting",
+              "faq/contact-support"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "footer": {
+    "socials": {
+      "linkedin": "https://www.linkedin.com/company/prodfolio"
+    },
+    "links": [
+      {
+        "header": "Product",
+        "items": [
+          {
+            "label": "Prodfolio App",
+            "href": "https://app.prodfolio.io"
+          },
+          {
+            "label": "Website",
+            "href": "https://prodfolio.io"
+          }
+        ]
+      },
+      {
+        "header": "Legal",
+        "items": [
+          {
+            "label": "Terms of Service",
+            "href": "https://prodfolio.io/terms"
+          },
+          {
+            "label": "Privacy Policy",
+            "href": "https://prodfolio.io/privacy"
+          }
+        ]
+      }
+    ]
+  }
+}
