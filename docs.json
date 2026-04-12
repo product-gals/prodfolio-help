@@ -155,7 +155,9 @@
   },
   "footer": {
     "socials": {
-      "linkedin": "https://www.linkedin.com/company/prodfolio"
+      "linkedin": "https://www.linkedin.com/company/prodfoliohq/",
+      "instagram": "https://www.instagram.com/prodfolio.io/",
+      "youtube": "https://www.youtube.com/@TheProductPivot/videos"
     },
     "links": [
       {
@@ -168,6 +170,27 @@
           {
             "label": "Website",
             "href": "https://prodfolio.io"
+          }
+        ]
+      },
+      {
+        "header": "Resources",
+        "items": [
+          {
+            "label": "Blog",
+            "href": "https://prodfolio.io/blog"
+          },
+          {
+            "label": "Examples",
+            "href": "https://prodfolio.io/examples"
+          },
+          {
+            "label": "PM Quiz",
+            "href": "https://prodfolio.io/quiz"
+          },
+          {
+            "label": "Podcast",
+            "href": "https://prodfolio.io/podcast"
           }
         ]
       },
