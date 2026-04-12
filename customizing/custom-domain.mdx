@@ -1,12 +1,11 @@
 ---
 title: Setting Up a Custom Domain
-description: Connect a custom domain to your product manager portfolio. Set up DNS, verify, and brand your PM portfolio with your own URL.
 sidebarTitle: Custom Domain (Pro)
 ---
 
-<Note>Custom domains are a Pro feature. [Upgrade to Pro →](/billing/plan-comparison)</Note>
+Connect your own domain (`janedoe.com`) to your product manager portfolio for a fully branded experience. Nothing says "I take my PM career seriously" like your own domain. 💼
 
-Connect your own domain (e.g., `portfolio.janedoe.com`) to your product manager portfolio for a fully branded experience. Nothing says "I take my PM career seriously" like your own domain. 💼
+<Note>Custom domains are a Pro feature. [Upgrade to Pro →](/billing/plan-comparison)</Note>
 
 {/* TODO: Add video embed */}
 
@@ -21,7 +20,7 @@ Connect your own domain (e.g., `portfolio.janedoe.com`) to your product manager 
 
 1. Open the portfolio builder
 2. Go to the **Domain** section
-3. Enter your custom domain (e.g., `portfolio.janedoe.com`)
+3. Enter your custom domain (`janedoe.com`)
 4. Click **Verify**
 
 ### 2. Configure DNS
@@ -32,7 +31,7 @@ Add a **CNAME record** in your domain registrar's DNS settings:
 |------|------|-------|
 | CNAME | `portfolio` (or your subdomain) | Provided by Prodfolio |
 
-<Note>DNS changes can take up to 48 hours to propagate, though most complete within a few hours.</Note>
+<Note>DNS changes can take up to 48 hours to propagate, though most complete within a few hours. If you're using a root domain (`janedoe.com`), we also recommend adding a CNAME record for `www` so that `www.janedoe.com` works too.</Note>
 
 ### 3. Verify
 
@@ -40,22 +39,18 @@ Return to Prodfolio and click **Verify** again. Once DNS has propagated, your do
 
 ## Domain status
 
-- **Pending** — DNS not yet verified
-- **Active** — Domain is connected and working
-- **Error** — Something went wrong (check your DNS settings)
+- **Pending**: DNS not yet verified
+- **Active**: Domain is connected and working
+- **Error**: Something went wrong (check your DNS settings)
 
 ## Troubleshooting
 
-- **Domain still showing "Pending"?** DNS propagation can take up to 48 hours. Try again later.
+- **Domain still showing "Pending"?** DNS propagation can take up to 48 hours, but it's usually much faster. If it's been more than 24 hours please contact us at **support@prodfolio.io**.
 - **Error status?** Double-check that your CNAME record matches exactly what Prodfolio provided.
-- **Using a root domain (no subdomain)?** Some registrars require an ALIAS or ANAME record instead of CNAME for root domains.
+- **Using a root domain (no subdomain)?** Some registrars require an ALIAS or ANAME record instead of CNAME for root domains. If you need help please contact us at **support@prodfolio.io**.
 
 ## Known limitations
 
-<Warning>Inline editing of section titles and subtitles is not available on custom domains. Your Prodfolio login session doesn't carry over to external domains, so the edit controls won't appear.</Warning>
-
-**Workaround:** Edit your titles and subtitles on your Prodfolio-hosted portfolio before setting up your custom domain — changes carry over automatically. Or contact **support@prodfolio.io** and we'll update them for you.
-
-[Learn more about customizing section titles and subtitles →](/customizing/section-titles-subtitles)
+We are aware of a known limitation with Section Titles and Subtitles with Custom Domains. [Read here for more details →](/customizing/section-titles-subtitles#how-to-edit)
 
 [More troubleshooting →](/faq/custom-domain-troubleshooting)

@@ -77,12 +77,12 @@
               "publishing/publish-portfolio",
               "publishing/sharing-your-link",
               "publishing/public-portfolio",
-              "publishing/password-protection"
+              "publishing/locking-case-studies"
             ]
           },
           {
             "group": "Analytics",
-            "icon": "bar-chart-3",
+            "icon": "chart-bar",
             "pages": [
               "analytics/dashboard-overview",
               "analytics/traffic-sources",
