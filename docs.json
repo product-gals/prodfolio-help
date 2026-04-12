@@ -48,11 +48,11 @@
             "group": "Building Your Portfolio",
             "icon": "hammer",
             "pages": [
+              "building/resume-upload",
               "building/portfolio-basics",
               "building/about-section",
               "building/work-experience",
               "building/case-studies",
-              "building/resume-upload",
               "building/references",
               "building/beyond-work",
               "building/skills-and-tools"
