@@ -97,6 +97,7 @@
             "pages": [
               "ai/case-study-generation",
               "ai/case-study-summaries",
+              "ai/product-philosophy",
               "ai/resume-parsing"
             ]
           },
